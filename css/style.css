@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(250,218,221);
+}
+
+#indexgrid{
+  display: grid;
+  grid-template-areas: "index text text";
+}
+
+#doodleimg{
+  grid-area: 'doodle';
+}
+
+#indextext{
+  grid-area: 'text';
+}
+
+#pixiegrid{
+  display: grid;
+  grid-template-areas: "pixie text text";
+}
+
+#pixieimg{
+  grid-area: 'pixie';
+}
+
+#pixietext{
+  grid-area: 'text';
+}
+
+#graciegrid{
+  display: grid;
+  grid-template-areas: "gracie text text";
+}
+
+#gracieimg{
+  grid-area: 'gracie';
+}
+
+#gracietext{
+  grid-area: 'text';
+}
+
+h1,
+h2,
+h3,
+p,
+nav,
+figcaption {
+  font-family: "Acme";
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+  color: #E11584;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+nav {
+  font-size: 15px;
+}
+
+ul {
+  font-family: "Acme";
+  font-size: 18px;
+}
